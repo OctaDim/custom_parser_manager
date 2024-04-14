@@ -68,29 +68,38 @@ for category_name, category_url in all_categories.items():
 
         category_products_tr_list = table.find("tbody").find_all("tr")
 
+        product_info_dict_for_json = {}
+
         for product_tr in category_products_tr_list:
             product_td_list = product_tr.find_all("td")
 
+            product_name = product_td_list[0].find_next().text.strip()
+            calories = product_td_list[1].text.strip()
+            proteins = product_td_list[2].text.strip()
+            fats = product_td_list[3].text.strip()
+            carbohydrates = product_td_list[4].text.strip()
+
+
             # ############## CREATING DICTS LIST FOR CSV ###############
-            product_info_dict_for_csv = {
-                "category_name": category_name,
-                "product_name": product_td_list[0].find_next().text.strip(),
-                "calories": product_td_list[1].text.strip(),
-                "proteins": product_td_list[2].text.strip(),
-                "fats": product_td_list[3].text.strip(),
-                "carbohydrates": product_td_list[4].text.strip()}
+            product_info_dict_for_csv = {"category_name": category_name,
+                                         "product_name": product_name,
+                                         "calories": calories,
+                                         "proteins": proteins,
+                                         "fats": fats,
+                                         "carbohydrates": carbohydrates}
             products_info_dicts_list_for_csv.append(product_info_dict_for_csv)
 
+
             # ############## CREATING DICTS DICT FOR JSON ##############
-            product_info_dict_for_csv = {
-                "product_name": product_td_list[0].find_next().text.strip(),
-                "calories": product_td_list[1].text.strip(),
-                "proteins": product_td_list[2].text.strip(),
-                "fats": product_td_list[3].text.strip(),
-                "carbohydrates": product_td_list[4].text.strip()}
-            products_info_dicts_dict_for_json[category_name]=product_info_dict_for_csv
+            product_info_dict_for_json[product_name] = {"product_name": product_name,
+                                                        "calories": calories,
+                                                        "proteins": proteins,
+                                                        "fats": fats,
+                                                        "carbohydrates": carbohydrates}
+        products_info_dicts_dict_for_json[category_name] = product_info_dict_for_json
 
     category_number += 1
+
 
 # ######################## CREATING RESULT CSV FILE ####################
 csv_full_filename = compose_full_filename(
