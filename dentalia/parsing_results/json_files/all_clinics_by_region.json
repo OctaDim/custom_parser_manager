@@ -1,0 +1,1532 @@
+{
+    "Aguascalientes": {
+        "Altaria": {
+            "clinic_id": "1327",
+            "clinic_name": "Altaria",
+            "clinic_address": "Blvd. A Zacatecas #849, L-1117 A y L-1117B, Trojes de Alonso, C.P. 20116, Aguascalientes, Aguascalientes. De lado de La Comer, frente a Sport World y Coppel.",
+            "clinic_geo": [
+                "21.9245323",
+                "-102.2897871"
+            ],
+            "clinic_phone": [
+                "(44) 9925- 8100",
+                "(44) 9925- 8101"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Baja California": {
+        "Península Tijuana": {
+            "clinic_id": "343685",
+            "clinic_name": "Península Tijuana",
+            "clinic_address": "Vía Rápida Ote. 15000 Chapultepec Alamar, 22150 Tijuana, B.C. Local L-46 2do piso, a un costado de Cuadra y Carter's.",
+            "clinic_geo": [
+                "32.5134115",
+                "-116.9658006"
+            ],
+            "clinic_phone": [
+                "(664) 423 0960",
+                "(664) 423 0961"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Paseo Chapultepec": {
+            "clinic_id": "1343",
+            "clinic_name": "Paseo Chapultepec",
+            "clinic_address": "Blvd. Agua Caliente 10387, Neidhart, 22020 Tijuana, B.C. BC. 2do piso, Local C-203.",
+            "clinic_geo": [
+                "32.5140932",
+                "-117.0121572"
+            ],
+            "clinic_phone": [
+                "(664) 681-8528",
+                "(664) 681-8911"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        }
+    },
+    "Chihuahua": {
+        "Las Misiones": {
+            "clinic_id": "1355",
+            "clinic_name": "Las Misiones",
+            "clinic_address": "Boulevard Teófilo Borunda 8681, Col. Partido Iglesias, CP. 32663, Ciudad Juárez, Chihuahua, México. Planta alta, a un costado del área de comida.",
+            "clinic_geo": [
+                "31.6868462",
+                "-106.4080948"
+            ],
+            "clinic_phone": [
+                "(656) 478-7700",
+                "(656) 478-7701"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a18:00"
+            ]
+        },
+        "Chihuahua": {
+            "clinic_id": "1344",
+            "clinic_name": "Chihuahua",
+            "clinic_address": "Av. Periférico de la Juventud 3501, Local U-59 y U-60 Fracc. Plaza del Sol, 31236, Chihuahua. Planta alta, entre Liverpool y la tienda Arte Egipcio.",
+            "clinic_geo": [
+                "28.6250271",
+                "-106.116195"
+            ],
+            "clinic_phone": [
+                "(614) 430-3127",
+                "(614) 430-1487"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 18:00",
+                "D 10:00 a 19:00"
+            ]
+        }
+    },
+    "Ciudad de México": {
+        "Acoxpa": {
+            "clinic_id": "343533",
+            "clinic_name": "Acoxpa",
+            "clinic_address": "Calz. Acoxpa 430, Ex-Hacienda Coapa, 14300, CDMX. En los locales frente al estacionamiento descubierto, a dos locales de Starbucks.",
+            "clinic_geo": [
+                "19.2980525",
+                "-99.1376166"
+            ],
+            "clinic_phone": [
+                "(55) 5677-2198",
+                "(55) 5678-0750"
+            ],
+            "clinic_worktime": [
+                "L-V 10:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Santa Fe": {
+            "clinic_id": "1359",
+            "clinic_name": "Santa Fe",
+            "clinic_address": "Vasco de Quiroga 3800, Lomas de Santa Fe, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX Local 569. 3er piso, por Palacio de Hierro.",
+            "clinic_geo": [
+                "19.3613046",
+                "-99.2735343"
+            ],
+            "clinic_phone": [
+                "(55) 4737 8430",
+                "(55) 4737 8431"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Viaducto": {
+            "clinic_id": "1313",
+            "clinic_name": "Viaducto",
+            "clinic_address": "Viaducto Río de la Piedad 515, Granjas, 08400, CDMX.  1er piso, a lado de Smart Fit.",
+            "clinic_geo": [
+                "19.4062231",
+                "-99.1106088"
+            ],
+            "clinic_phone": [
+                "(55) 4737 8436"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Patio Universidad": {
+            "clinic_id": "1312",
+            "clinic_name": "Patio Universidad",
+            "clinic_address": "Av. Popocatépetl 546, Xoco, 03330 Ciudad de México, CDMX. 2do piso, a un costado de Cinépolis.",
+            "clinic_geo": [
+                "19.36588",
+                "-99.1669431"
+            ],
+            "clinic_phone": [
+                "(55) 5604-5946",
+                "(55) 5601-4242"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Tlatelolco": {
+            "clinic_id": "1310",
+            "clinic_name": "Tlatelolco",
+            "clinic_address": "Manuel González 95, San Simón Tolnahuac, Cuauhtémoc, 06920 Ciudad de México, CDMX. A pie de calle, a lado de las escaleras eléctricas.",
+            "clinic_geo": [
+                "19.4557924",
+                "-99.1421227"
+            ],
+            "clinic_phone": [
+                "(55) 47 37 84 34",
+                "(55) 47 37 84 32"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Tezontle": {
+            "clinic_id": "1309",
+            "clinic_name": "Tezontle",
+            "clinic_address": "Av. Canal De Tezontle 1512 Local 279, Alfonso Ortiz Tirado, 09020, Iztapalapa, CDMX. 2do piso, a lado de The Body Shop, frente a Italianni´s.",
+            "clinic_geo": [
+                "19.3839615",
+                "-99.0826723"
+            ],
+            "clinic_phone": [
+                "(55) 9129-0134",
+                "(55) 9129-0338"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Samara": {
+            "clinic_id": "1308",
+            "clinic_name": "Samara",
+            "clinic_address": "Antonio Dovali Jaime 70 LOCAL PL09B, Zedec Sta Fé, 01219 Ciudad de México. En planta baja, diagonal a Cinépolis o Sally Beauty.",
+            "clinic_geo": [
+                "19.3674396",
+                "-99.2592183"
+            ],
+            "clinic_phone": [
+                "(55) 5775-6886",
+                "(55) 1163-5536"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Reforma": {
+            "clinic_id": "1307",
+            "clinic_name": "Reforma",
+            "clinic_address": "Av. Paseo de la Reforma 222, Local 208, Juárez, Cuauhtémoc, 06600,CDMX. Frente a Cinemex y a lado de Smartfit.",
+            "clinic_geo": [
+                "19.4286725",
+                "-99.1616682"
+            ],
+            "clinic_phone": [
+                "(55) 5511-8567",
+                "(55) 5533-2061"
+            ],
+            "clinic_worktime": [
+                "L-D 7:00 a 20:00"
+            ]
+        },
+        "Plaza Carso": {
+            "clinic_id": "1306",
+            "clinic_name": "Plaza Carso",
+            "clinic_address": "Lago Zurich no.219 Col. Ampliación Granada, Alcaldía Miguel Hidalgo C.P. 11529 Ciudad de México. Local PA-03, junto a Academia Europea de idiomas, frente a Go Kart.",
+            "clinic_geo": [
+                "19.4429015",
+                "-99.2029344"
+            ],
+            "clinic_phone": [
+                "(55) 5580-7866",
+                "(55) 5395-5433"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Pedregal": {
+            "clinic_id": "1305",
+            "clinic_name": "Pedregal",
+            "clinic_address": "Periférico Sur 4268, Jardines del Pedregal de San Ángel, Coyoacán, 04500 Ciudad de México, CDMX. Sótano 1, frente al elevador.",
+            "clinic_geo": [
+                "19.3056683",
+                "-99.2028421"
+            ],
+            "clinic_phone": [
+                "(55) 5677-2596",
+                "(55) 2487-3387"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Parque Delta": {
+            "clinic_id": "1304",
+            "clinic_name": "Parque Delta",
+            "clinic_address": "Av. Cuauhtémoc No. 462, Locales L-301 y L-301B, Colonia Piedad Narvarte, Benito Juárez, C.P. 03000, CDMX. Junto a Cinemex Platinum.",
+            "clinic_geo": [
+                "19.3969198",
+                "-99.1561339"
+            ],
+            "clinic_phone": [
+                "(55) 5080 4860",
+                "(55) 5080 4861"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Patriotismo": {
+            "clinic_id": "1303",
+            "clinic_name": "Patriotismo",
+            "clinic_address": "Av. Patriotismo 229, San Pedro de los Pinos, Int Local 116-a, 03800 Benito Juárez, CDMX. 1er piso, frente a las escaleras eléctricas que van al cine.",
+            "clinic_geo": [
+                "19.3962706",
+                "-99.1805731"
+            ],
+            "clinic_phone": [
+                "(55) 35 47-27 47",
+                "(55) 55 16-93 37"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Miyana": {
+            "clinic_id": "1301",
+            "clinic_name": "Miyana",
+            "clinic_address": "Av. Ejercito Nacional Mexicano 769 Esq. Moliere, Granada, Miguel Hidalgo, 11520 CDMX. Local S03 Y S03-A. Sótano 1, junto a la lavandería y la estética.",
+            "clinic_geo": [
+                "19.4404937",
+                "-99.1998231"
+            ],
+            "clinic_phone": [
+                "(55) 3602-4258"
+            ],
+            "clinic_worktime": [
+                "L-V 7:00 a 20:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Oasis Coyoacán": {
+            "clinic_id": "1300",
+            "clinic_name": "Oasis Coyoacán",
+            "clinic_address": "Av. Universidad #1778 Local ML-02, Col. Romero de Terreros Del. Coyoacán México D,F. 04310. En el sótano 1, a lado de Sports World, frente a Farmacia Benavides.",
+            "clinic_geo": [
+                "19.3455693",
+                "-99.1794298"
+            ],
+            "clinic_phone": [
+                "(55) 5554-4990",
+                "(55) 5554-5448"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Lindavista": {
+            "clinic_id": "1299",
+            "clinic_name": "Lindavista",
+            "clinic_address": "Calle Colector 13, 280 Local 503 y 504,Magdalena de las Salinas Gustavo A. Madero, 07760. Entrando de lado izquierdo, bajando las escaleras, en sótano 1 junto al Casino Jack.",
+            "clinic_geo": [
+                "19.486661",
+                "-99.1312247"
+            ],
+            "clinic_phone": [
+                "(55) 5119-9966",
+                "(55) 5586-0583"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Gran Sur": {
+            "clinic_id": "1298",
+            "clinic_name": "Gran Sur",
+            "clinic_address": "Av. Del Imán 151 Local A-2-127, Pedregal de Carrasco, 04700, Coyoacán, CDMX. Cerca de la zona de comida rápida, hacia Cinemex, frente a Puma.",
+            "clinic_geo": [
+                "19.3077113",
+                "-99.1641674"
+            ],
+            "clinic_phone": [
+                "(55) 2457-1950",
+                "(55) 2457-1951"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Las Antenas": {
+            "clinic_id": "1297",
+            "clinic_name": "Las Antenas",
+            "clinic_address": "Av. Canal de Garay 3278, LOCAL 245-246-246B, La Esperanza, Iztapalapa. 09910. 2do piso, a lado de Los Bisquets Obregón, frente a Juguetrón.",
+            "clinic_geo": [
+                "19.3148662",
+                "-99.0771194"
+            ],
+            "clinic_phone": [
+                "(55) 5047-2093",
+                "(55) 5047-2094"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Encuentro Fortuna": {
+            "clinic_id": "1296",
+            "clinic_name": "Encuentro Fortuna",
+            "clinic_address": "Av. Fortuna 334, Local SC-07, Nivel 2, Magdalena de las Salinas,  07370 CDMX. Tercer piso, de lado izquierdo.",
+            "clinic_geo": [
+                "19.4820473",
+                "-99.1303518"
+            ],
+            "clinic_phone": [
+                "(55) 5035 6918",
+                "(55) 9130 6275"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "City Shops Del Valle": {
+            "clinic_id": "1294",
+            "clinic_name": "City Shops Del Valle",
+            "clinic_address": "Félix Cuevas No. 374, local C-01, Del Valle, Benito Juárez, CDMX. A pie de calle, junto a los elevadores.",
+            "clinic_geo": [
+                "19.3727857",
+                "-99.1730125"
+            ],
+            "clinic_phone": [
+                "(55) 53 35 07 17",
+                "(55) 55 59 17 38"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Diagonal Cuitláhuac": {
+            "clinic_id": "1293",
+            "clinic_name": "Diagonal Cuitláhuac",
+            "clinic_address": "Av. Cuitláhuac 2309, L-80, L-09, L-10, San Salvador Xochimanca, Azcapotzalco, 02870 CDMX. 1er piso, a al lado de Petco, frente a Office Depot.",
+            "clinic_geo": [
+                "19.459094",
+                "-99.1776841"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8440",
+                "(55) 4737-8441"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S 10:00 a 20:00",
+                "D 11:00 a 20:00"
+            ]
+        },
+        "Coyoacán Punto MAQ": {
+            "clinic_id": "1291",
+            "clinic_name": "Coyoacán Punto MAQ",
+            "clinic_address": "Av. Miguel Ángel de Quevedo 1144-S, L-A-17, Parque San Andrés, 04040, CDMX. 1er piso, a lado del restaurante La Casa de Toño.",
+            "clinic_geo": [
+                "19.342499",
+                "-99.1466464"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8480",
+                "(55) 4737-8481"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Coapa": {
+            "clinic_id": "1290",
+            "clinic_name": "Coapa",
+            "clinic_address": "Calzada Acoxpa No. 610, Villa Coapa, Tlalpan, 14390, CDMX. En el mismo pasillo de Nutrisa y Cielito Querido, a un lado de Citibanamex.",
+            "clinic_geo": [
+                "19.2933367",
+                "-99.1280291"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8438",
+                "(55) 4737-8439"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Buenavista": {
+            "clinic_id": "1289",
+            "clinic_name": "Buenavista",
+            "clinic_address": "Eje 1 Norte Mosqueta 259, Buenavista, Cuauhtémoc, 06350, CDMX. 3er piso, cerca de la pista de hielo, junto al gimnasio C+, frente a Sushi Roll.",
+            "clinic_geo": [
+                "19.4490389",
+                "-99.1519141"
+            ],
+            "clinic_phone": [
+                "(55) 5541-1096",
+                "(55) 5541-0348"
+            ],
+            "clinic_worktime": [
+                "L-J 10:00 a 21:00",
+                "V 10:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Altavista": {
+            "clinic_id": "1288",
+            "clinic_name": "Altavista",
+            "clinic_address": "Plaza Altavista Calzada, Desierto de los Leones 52, Álvaro Obregón, 01000 Ciudad de México, CDMX. Planta baja, frente al kiosko de Krispy Kreme.",
+            "clinic_geo": [
+                "19.349022",
+                "-99.1896842"
+            ],
+            "clinic_phone": [
+                "(55) 5616-2386",
+                "(55) 5616-8248"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        }
+    },
+    "Ciudad de México - Centro": {
+        "Tlatelolco": {
+            "clinic_id": "1310",
+            "clinic_name": "Tlatelolco",
+            "clinic_address": "Manuel González 95, San Simón Tolnahuac, Cuauhtémoc, 06920 Ciudad de México, CDMX. A pie de calle, a lado de las escaleras eléctricas.",
+            "clinic_geo": [
+                "19.4557924",
+                "-99.1421227"
+            ],
+            "clinic_phone": [
+                "(55) 47 37 84 34",
+                "(55) 47 37 84 32"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Reforma": {
+            "clinic_id": "1307",
+            "clinic_name": "Reforma",
+            "clinic_address": "Av. Paseo de la Reforma 222, Local 208, Juárez, Cuauhtémoc, 06600,CDMX. Frente a Cinemex y a lado de Smartfit.",
+            "clinic_geo": [
+                "19.4286725",
+                "-99.1616682"
+            ],
+            "clinic_phone": [
+                "(55) 5511-8567",
+                "(55) 5533-2061"
+            ],
+            "clinic_worktime": [
+                "L-D 7:00 a 20:00"
+            ]
+        },
+        "Parque Delta": {
+            "clinic_id": "1304",
+            "clinic_name": "Parque Delta",
+            "clinic_address": "Av. Cuauhtémoc No. 462, Locales L-301 y L-301B, Colonia Piedad Narvarte, Benito Juárez, C.P. 03000, CDMX. Junto a Cinemex Platinum.",
+            "clinic_geo": [
+                "19.3969198",
+                "-99.1561339"
+            ],
+            "clinic_phone": [
+                "(55) 5080 4860",
+                "(55) 5080 4861"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Patriotismo": {
+            "clinic_id": "1303",
+            "clinic_name": "Patriotismo",
+            "clinic_address": "Av. Patriotismo 229, San Pedro de los Pinos, Int Local 116-a, 03800 Benito Juárez, CDMX. 1er piso, frente a las escaleras eléctricas que van al cine.",
+            "clinic_geo": [
+                "19.3962706",
+                "-99.1805731"
+            ],
+            "clinic_phone": [
+                "(55) 35 47-27 47",
+                "(55) 55 16-93 37"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Buenavista": {
+            "clinic_id": "1289",
+            "clinic_name": "Buenavista",
+            "clinic_address": "Eje 1 Norte Mosqueta 259, Buenavista, Cuauhtémoc, 06350, CDMX. 3er piso, cerca de la pista de hielo, junto al gimnasio C+, frente a Sushi Roll.",
+            "clinic_geo": [
+                "19.4490389",
+                "-99.1519141"
+            ],
+            "clinic_phone": [
+                "(55) 5541-1096",
+                "(55) 5541-0348"
+            ],
+            "clinic_worktime": [
+                "L-J 10:00 a 21:00",
+                "V 10:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        }
+    },
+    "Ciudad de México - Norte": {
+        "Lindavista": {
+            "clinic_id": "1299",
+            "clinic_name": "Lindavista",
+            "clinic_address": "Calle Colector 13, 280 Local 503 y 504,Magdalena de las Salinas Gustavo A. Madero, 07760. Entrando de lado izquierdo, bajando las escaleras, en sótano 1 junto al Casino Jack.",
+            "clinic_geo": [
+                "19.486661",
+                "-99.1312247"
+            ],
+            "clinic_phone": [
+                "(55) 5119-9966",
+                "(55) 5586-0583"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Encuentro Fortuna": {
+            "clinic_id": "1296",
+            "clinic_name": "Encuentro Fortuna",
+            "clinic_address": "Av. Fortuna 334, Local SC-07, Nivel 2, Magdalena de las Salinas,  07370 CDMX. Tercer piso, de lado izquierdo.",
+            "clinic_geo": [
+                "19.4820473",
+                "-99.1303518"
+            ],
+            "clinic_phone": [
+                "(55) 5035 6918",
+                "(55) 9130 6275"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Diagonal Cuitláhuac": {
+            "clinic_id": "1293",
+            "clinic_name": "Diagonal Cuitláhuac",
+            "clinic_address": "Av. Cuitláhuac 2309, L-80, L-09, L-10, San Salvador Xochimanca, Azcapotzalco, 02870 CDMX. 1er piso, a al lado de Petco, frente a Office Depot.",
+            "clinic_geo": [
+                "19.459094",
+                "-99.1776841"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8440",
+                "(55) 4737-8441"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S 10:00 a 20:00",
+                "D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Ciudad de México - Oriente": {
+        "Encuentro Oceanía": {
+            "clinic_id": "344706",
+            "clinic_name": "Encuentro Oceanía",
+            "clinic_address": "Av. del Peñón 355, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX. 2do piso, frente a Playtime, a un costado de Cinemex.",
+            "clinic_geo": [
+                "19.4391521",
+                "-99.0945976"
+            ],
+            "clinic_phone": [
+                "(55) 5766-9999",
+                "(55) 1164-9418"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Viaducto": {
+            "clinic_id": "1313",
+            "clinic_name": "Viaducto",
+            "clinic_address": "Viaducto Río de la Piedad 515, Granjas, 08400, CDMX.  1er piso, a lado de Smart Fit.",
+            "clinic_geo": [
+                "19.4062231",
+                "-99.1106088"
+            ],
+            "clinic_phone": [
+                "(55) 4737 8436"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Tezontle": {
+            "clinic_id": "1309",
+            "clinic_name": "Tezontle",
+            "clinic_address": "Av. Canal De Tezontle 1512 Local 279, Alfonso Ortiz Tirado, 09020, Iztapalapa, CDMX. 2do piso, a lado de The Body Shop, frente a Italianni´s.",
+            "clinic_geo": [
+                "19.3839615",
+                "-99.0826723"
+            ],
+            "clinic_phone": [
+                "(55) 9129-0134",
+                "(55) 9129-0338"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Las Antenas": {
+            "clinic_id": "1297",
+            "clinic_name": "Las Antenas",
+            "clinic_address": "Av. Canal de Garay 3278, LOCAL 245-246-246B, La Esperanza, Iztapalapa. 09910. 2do piso, a lado de Los Bisquets Obregón, frente a Juguetrón.",
+            "clinic_geo": [
+                "19.3148662",
+                "-99.0771194"
+            ],
+            "clinic_phone": [
+                "(55) 5047-2093",
+                "(55) 5047-2094"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Ciudad de México - Poniente": {
+        "Santa Fe": {
+            "clinic_id": "1359",
+            "clinic_name": "Santa Fe",
+            "clinic_address": "Vasco de Quiroga 3800, Lomas de Santa Fe, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX Local 569. 3er piso, por Palacio de Hierro.",
+            "clinic_geo": [
+                "19.3613046",
+                "-99.2735343"
+            ],
+            "clinic_phone": [
+                "(55) 4737 8430",
+                "(55) 4737 8431"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Magnocentro Interlomas": {
+            "clinic_id": "1316",
+            "clinic_name": "Magnocentro Interlomas",
+            "clinic_address": "Blvd. Magnocentro 26, local B20- B22 Y B-23, La Herradura, 52760 Naucalpan de Juárez, Méx. Abajo de Walmart, frente al Súper Naturista y Dormimundo.",
+            "clinic_geo": [
+                "19.4057702",
+                "-99.2730877"
+            ],
+            "clinic_phone": [
+                "(55) 5290-1807",
+                "(55) 5290-0389"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Samara": {
+            "clinic_id": "1308",
+            "clinic_name": "Samara",
+            "clinic_address": "Antonio Dovali Jaime 70 LOCAL PL09B, Zedec Sta Fé, 01219 Ciudad de México. En planta baja, diagonal a Cinépolis o Sally Beauty.",
+            "clinic_geo": [
+                "19.3674396",
+                "-99.2592183"
+            ],
+            "clinic_phone": [
+                "(55) 5775-6886",
+                "(55) 1163-5536"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Plaza Carso": {
+            "clinic_id": "1306",
+            "clinic_name": "Plaza Carso",
+            "clinic_address": "Lago Zurich no.219 Col. Ampliación Granada, Alcaldía Miguel Hidalgo C.P. 11529 Ciudad de México. Local PA-03, junto a Academia Europea de idiomas, frente a Go Kart.",
+            "clinic_geo": [
+                "19.4429015",
+                "-99.2029344"
+            ],
+            "clinic_phone": [
+                "(55) 5580-7866",
+                "(55) 5395-5433"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Miyana": {
+            "clinic_id": "1301",
+            "clinic_name": "Miyana",
+            "clinic_address": "Av. Ejercito Nacional Mexicano 769 Esq. Moliere, Granada, Miguel Hidalgo, 11520 CDMX. Local S03 Y S03-A. Sótano 1, junto a la lavandería y la estética.",
+            "clinic_geo": [
+                "19.4404937",
+                "-99.1998231"
+            ],
+            "clinic_phone": [
+                "(55) 3602-4258"
+            ],
+            "clinic_worktime": [
+                "L-V 7:00 a 20:00",
+                "S-D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Ciudad de México - Sur": {
+        "Acoxpa": {
+            "clinic_id": "343533",
+            "clinic_name": "Acoxpa",
+            "clinic_address": "Calz. Acoxpa 430, Ex-Hacienda Coapa, 14300, CDMX. En los locales frente al estacionamiento descubierto, a dos locales de Starbucks.",
+            "clinic_geo": [
+                "19.2980525",
+                "-99.1376166"
+            ],
+            "clinic_phone": [
+                "(55) 5677-2198",
+                "(55) 5678-0750"
+            ],
+            "clinic_worktime": [
+                "L-V 10:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Patio Universidad": {
+            "clinic_id": "1312",
+            "clinic_name": "Patio Universidad",
+            "clinic_address": "Av. Popocatépetl 546, Xoco, 03330 Ciudad de México, CDMX. 2do piso, a un costado de Cinépolis.",
+            "clinic_geo": [
+                "19.36588",
+                "-99.1669431"
+            ],
+            "clinic_phone": [
+                "(55) 5604-5946",
+                "(55) 5601-4242"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Pedregal": {
+            "clinic_id": "1305",
+            "clinic_name": "Pedregal",
+            "clinic_address": "Periférico Sur 4268, Jardines del Pedregal de San Ángel, Coyoacán, 04500 Ciudad de México, CDMX. Sótano 1, frente al elevador.",
+            "clinic_geo": [
+                "19.3056683",
+                "-99.2028421"
+            ],
+            "clinic_phone": [
+                "(55) 5677-2596",
+                "(55) 2487-3387"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Oasis Coyoacán": {
+            "clinic_id": "1300",
+            "clinic_name": "Oasis Coyoacán",
+            "clinic_address": "Av. Universidad #1778 Local ML-02, Col. Romero de Terreros Del. Coyoacán México D,F. 04310. En el sótano 1, a lado de Sports World, frente a Farmacia Benavides.",
+            "clinic_geo": [
+                "19.3455693",
+                "-99.1794298"
+            ],
+            "clinic_phone": [
+                "(55) 5554-4990",
+                "(55) 5554-5448"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Gran Sur": {
+            "clinic_id": "1298",
+            "clinic_name": "Gran Sur",
+            "clinic_address": "Av. Del Imán 151 Local A-2-127, Pedregal de Carrasco, 04700, Coyoacán, CDMX. Cerca de la zona de comida rápida, hacia Cinemex, frente a Puma.",
+            "clinic_geo": [
+                "19.3077113",
+                "-99.1641674"
+            ],
+            "clinic_phone": [
+                "(55) 2457-1950",
+                "(55) 2457-1951"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "City Shops Del Valle": {
+            "clinic_id": "1294",
+            "clinic_name": "City Shops Del Valle",
+            "clinic_address": "Félix Cuevas No. 374, local C-01, Del Valle, Benito Juárez, CDMX. A pie de calle, junto a los elevadores.",
+            "clinic_geo": [
+                "19.3727857",
+                "-99.1730125"
+            ],
+            "clinic_phone": [
+                "(55) 53 35 07 17",
+                "(55) 55 59 17 38"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Coyoacán Punto MAQ": {
+            "clinic_id": "1291",
+            "clinic_name": "Coyoacán Punto MAQ",
+            "clinic_address": "Av. Miguel Ángel de Quevedo 1144-S, L-A-17, Parque San Andrés, 04040, CDMX. 1er piso, a lado del restaurante La Casa de Toño.",
+            "clinic_geo": [
+                "19.342499",
+                "-99.1466464"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8480",
+                "(55) 4737-8481"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Coapa": {
+            "clinic_id": "1290",
+            "clinic_name": "Coapa",
+            "clinic_address": "Calzada Acoxpa No. 610, Villa Coapa, Tlalpan, 14390, CDMX. En el mismo pasillo de Nutrisa y Cielito Querido, a un lado de Citibanamex.",
+            "clinic_geo": [
+                "19.2933367",
+                "-99.1280291"
+            ],
+            "clinic_phone": [
+                "(55) 4737-8438",
+                "(55) 4737-8439"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Altavista": {
+            "clinic_id": "1288",
+            "clinic_name": "Altavista",
+            "clinic_address": "Plaza Altavista Calzada, Desierto de los Leones 52, Álvaro Obregón, 01000 Ciudad de México, CDMX. Planta baja, frente al kiosko de Krispy Kreme.",
+            "clinic_geo": [
+                "19.349022",
+                "-99.1896842"
+            ],
+            "clinic_phone": [
+                "(55) 5616-2386",
+                "(55) 5616-8248"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        }
+    },
+    "Coahuila": {
+        "Galerías Saltillo": {
+            "clinic_id": "1340",
+            "clinic_name": "Galerías Saltillo",
+            "clinic_address": "Blvd. Nazario Ortiz Garza No. 2345 L-142 Col. Tanque de Peña, C.P. 25279  Saltillo, Coahuila. En planta baja, entrando por Scotiabank y H&M.",
+            "clinic_geo": [
+                "25.4574489",
+                "-100.9797802"
+            ],
+            "clinic_phone": [
+                "(844) 485-1749",
+                "(844) 485-1820"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 11:00 a 20:00"
+            ]
+        },
+        "Galerías Laguna": {
+            "clinic_id": "1339",
+            "clinic_name": "Galerías Laguna",
+            "clinic_address": "Av. Periférico Raúl López Sánchez, 6000 L-275, El Fresno, 27018  Torreón, Coahuila. En Planta alta, accesando por Sears, a un lado de Telcel.",
+            "clinic_geo": [
+                "25.5812818",
+                "-103.4043437"
+            ],
+            "clinic_phone": [
+                "(871) 750-8099",
+                "(871) 750-8213"
+            ],
+            "clinic_worktime": [
+                "L-V 11:00 a 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Estado de México": {
+        "Galerías Atizapán": {
+            "clinic_id": "343665",
+            "clinic_name": "Galerías Atizapán",
+            "clinic_address": "Avenida Ruiz Cortines número 255,  Mz 2, Lt I, Manzana II, Frac. Lomas de Atizapán, CP 52977, Atizapán de Zaragoza, Estado de México. Primer piso, a un costado de Cinépolis.",
+            "clinic_geo": [
+                "19.5493676",
+                "-99.2740314"
+            ],
+            "clinic_phone": [
+                "(55) 41 23 75 18",
+                "(55) 41 23 75 19"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Satélite": {
+            "clinic_id": "1323",
+            "clinic_name": "Satélite",
+            "clinic_address": "Circuito Centro Comercial N. 2252, Local SA01, Ciudad Satélite, Municipio Naucalpan de Juaréz, C.P. 53100, Edo. Mex. Debajo de Codere.",
+            "clinic_geo": [
+                "19.5103823",
+                "-99.2339917"
+            ],
+            "clinic_phone": [
+                "(55) 1102 3864",
+                "(55) 1102 3865"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Parque Toreo": {
+            "clinic_id": "1322",
+            "clinic_name": "Parque Toreo",
+            "clinic_address": "Boulevard Manuel Ávila Camacho No. 5 L-18 y L-19, Fraccionamiento Lomas de Sotelo, C.P. 53390. Naucalpan de Juárez, Edo. Mex. Frente a HSBC, a lado de Cuidado con el Perro.",
+            "clinic_geo": [
+                "19.4550322",
+                "-99.2188172"
+            ],
+            "clinic_phone": [
+                "(55) 5080 4862",
+                "(55) 5080 4863"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Valle Dorado": {
+            "clinic_id": "1321",
+            "clinic_name": "Valle Dorado",
+            "clinic_address": "Blvd. Manuel Ávila Camacho, 3130 L-119,  Valle Dorado, 54020 Tlalnepantla, Estado de México. 1er piso, al fondo.",
+            "clinic_geo": [
+                "19.5475115",
+                "-99.2109251"
+            ],
+            "clinic_phone": [
+                "(55) 2159-4878",
+                "(55) 5378-4927"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Mundo E": {
+            "clinic_id": "1320",
+            "clinic_name": "Mundo E",
+            "clinic_address": "Perif. Blvd. Manuel Ávila Camacho 1007, LOCAL 26B-27B. Hab Jardines de Santa Monica, Tlalnepantla, 54050. 1er nivel, frente a los elevadores, entre Novias de España y Pampas.",
+            "clinic_geo": [
+                "19.5243654",
+                "-99.2271408"
+            ],
+            "clinic_phone": [
+                "(55) 5047-2095",
+                "(55) 5047-2096"
+            ],
+            "clinic_worktime": [
+                "L, J y V 10:00 a 20:00",
+                "M, M, S y D 11:00 a 20:00"
+            ]
+        },
+        "Plaza Mía Metepec": {
+            "clinic_id": "1319",
+            "clinic_name": "Plaza Mía Metepec",
+            "clinic_address": "Av. Ignacio Comonfort 1100, Local 208, Residencial la Providencia, 52177 Providencia, Méx. 2so piso, cerca el área de juegos y de Joyerías Bizzarro, frente al Divots.",
+            "clinic_geo": [
+                "19.2671543",
+                "-99.6058327"
+            ],
+            "clinic_phone": [
+                "(722) 271-3108",
+                "(722) 271-6764"
+            ],
+            "clinic_worktime": [
+                "L-S 9:00 a 20:00",
+                "D 11:00 a 20:00"
+            ]
+        },
+        "Gran Terraza Lomas Verdes": {
+            "clinic_id": "1317",
+            "clinic_name": "Gran Terraza Lomas Verdes",
+            "clinic_address": "Colina de La Paz 25, Boulevares, Local l203, 53120 Naucalpan de Juárez, Méx. Entre el restaurante Casa de Toño y BBVA.",
+            "clinic_geo": [
+                "19.4958151",
+                "-99.2470253"
+            ],
+            "clinic_phone": [
+                "(55) 5374-2169",
+                "(55) 1663-0519"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 11:00 a 20:00"
+            ]
+        },
+        "Magnocentro Interlomas": {
+            "clinic_id": "1316",
+            "clinic_name": "Magnocentro Interlomas",
+            "clinic_address": "Blvd. Magnocentro 26, local B20- B22 Y B-23, La Herradura, 52760 Naucalpan de Juárez, Méx. Abajo de Walmart, frente al Súper Naturista y Dormimundo.",
+            "clinic_geo": [
+                "19.4057702",
+                "-99.2730877"
+            ],
+            "clinic_phone": [
+                "(55) 5290-1807",
+                "(55) 5290-0389"
+            ],
+            "clinic_worktime": [
+                "L-V 8:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "La Cúspide": {
+            "clinic_id": "1315",
+            "clinic_name": "La Cúspide",
+            "clinic_address": "Av. Lomas Verdes Lote 21 Loc. 44-C, Lomas Verdes 5ª Secc. La Concordia, 53129, Edo de Méx",
+            "clinic_geo": [
+                "19.5197252",
+                "-99.2707822"
+            ],
+            "clinic_phone": [
+                "(55) 53 49 27 60",
+                "(55) 53 49 24 90"
+            ],
+            "clinic_worktime": [
+                "L-D 10:00 a 19:00"
+            ]
+        }
+    },
+    "Guanajuato": {
+        "Plaza Mayor": {
+            "clinic_id": "1328",
+            "clinic_name": "Plaza Mayor",
+            "clinic_address": "Blvd. Juan Alonso de Torres No. 2002 Loc. 2342 Col. Valle del Campestre, 37150 León Guanajuato. 2do piso, entre la zapatería Jarquin y el local de pies y salud.",
+            "clinic_geo": [
+                "21.1568621",
+                "-101.6952306"
+            ],
+            "clinic_phone": [
+                "(47) 7717 2580",
+                "(47) 7717 5862"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        }
+    },
+    "Jalisco": {
+        "Real Center": {
+            "clinic_id": "1349",
+            "clinic_name": "Real Center",
+            "clinic_address": "Av. Servidor Público 3600, Local C10-11, Col. Residencial Poniente, C.P. 45136, Zapopan Jalisco. Entrando por Petco, al final de los locales, a un costado de Cinépolis.",
+            "clinic_geo": [
+                "20.7331685",
+                "-103.4306941"
+            ],
+            "clinic_phone": [
+                "(33) 1371 5223",
+                "(33) 1371 5047"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        },
+        "Midtown Jalisco": {
+            "clinic_id": "1348",
+            "clinic_name": "Midtown Jalisco",
+            "clinic_address": "Avenida Adolfo López Mateos Norte No. 2405, Local L-77, Col. Italia Providencia Zona 2 Minerva, C.P. 44648, Guadalajara, Jalisco. 1er piso, cerca de Starbucks, a espaldas de H&M.",
+            "clinic_geo": [
+                "20.694456",
+                "-103.3756528"
+            ],
+            "clinic_phone": [
+                "(333) 817-1929",
+                "(333) 817-1657"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 10:00 a 20:00"
+            ]
+        },
+        "Gran Plaza": {
+            "clinic_id": "1347",
+            "clinic_name": "Gran Plaza",
+            "clinic_address": "Av. Ignacio L. Vallarta #3959 Int M03/M04, Col. Don Bosco Vallarta, CP 45049, Zapopan Jalisco. 2do piso, junto a Sears, frente a Telcel.",
+            "clinic_geo": [
+                "20.6743996",
+                "-103.4049947"
+            ],
+            "clinic_phone": [
+                "(33) 3621-1851",
+                "(33) 3621-1852"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 19:00",
+                "D 10:00 a 19:00"
+            ]
+        },
+        "Galerías Guadalajara": {
+            "clinic_id": "1346",
+            "clinic_name": "Galerías Guadalajara",
+            "clinic_address": "Avenida Rafael Sanzio #150, Local U-5, Col. La Estancia, Municipio de Zapopan, C.P. 45030, Estado de Jalisco. 3er piso, entrando por Banamex y Bancomer, frente a H&M.",
+            "clinic_geo": [
+                "20.6767732",
+                "-103.4307788"
+            ],
+            "clinic_phone": [
+                "(33) 3632-1745",
+                "(33) 3631-2172"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 10:00 a 19:00"
+            ]
+        },
+        "Andares": {
+            "clinic_id": "1345",
+            "clinic_name": "Andares",
+            "clinic_address": "Blvd. Puerta de Hierro 4965, Puerta de Hierro, 45116, Zapopan, Jalisco. Sótano 2, Frente a columnas verdes letra U, a lado de la academia de baile 28:20.",
+            "clinic_geo": [
+                "20.7198807",
+                "-103.4177887"
+            ],
+            "clinic_phone": [
+                "(33) 36 11 17 25",
+                "(33) 36 11 20 45"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 10:00 a 19:00"
+            ]
+        }
+    },
+    "Nuevo León": {
+        "Galerías Monterrey": {
+            "clinic_id": "344662",
+            "clinic_name": "Galerías Monterrey",
+            "clinic_address": "Av Insurgentes 2500-Local 737, Vista Hermosa, 64630 Monterrey, N.L. Planta Baja local 152, a lado de BBVA, frente a Wendy's. Acceso por fleteros.",
+            "clinic_geo": [
+                "25.6811354",
+                "-100.3545263"
+            ],
+            "clinic_phone": [
+                "(81) 81 23 36 29",
+                "(81) 81 23 93 34"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Galerías Valle Oriente": {
+            "clinic_id": "1338",
+            "clinic_name": "Galerías Valle Oriente",
+            "clinic_address": "Av. Lázaro Cárdenas No. 1000 Local 1158 Col. Valle del Mirador C.P. 64750 San Pedro, Nuevo León. Planta baja, entrando por Liverpool, frente a la Jungla de Timo, a lado de Galería Contagiarte.",
+            "clinic_geo": [
+                "25.6393389",
+                "-100.3150041"
+            ],
+            "clinic_phone": [
+                "(81) 8486-0015",
+                "(81) 8486-0016"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Multiplaza": {
+            "clinic_id": "1337",
+            "clinic_name": "Multiplaza",
+            "clinic_address": "Av. Miguel Alemán 5054, Local 144, Col, Linda Vista, Guadalupe N.L., 67130. Fuera de la plaza, en el área de estacionamiento, a un lado de Montepío.",
+            "clinic_geo": [
+                "25.6898612",
+                "-100.2483586"
+            ],
+            "clinic_phone": [
+                "(81) 8850-4121",
+                "(81) 8850-4122"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Fiesta San Agustín": {
+            "clinic_id": "1333",
+            "clinic_name": "Fiesta San Agustín",
+            "clinic_address": "Av. Real San Agustin 222, LOCAL 22 -28, Zona San Agustín, 66260 San Pedro Garza García, N.L. 2do piso, frente a Peter Piper Pizza.",
+            "clinic_geo": [
+                "25.6522182",
+                "-100.3377284"
+            ],
+            "clinic_phone": [
+                "(818) 363-1481",
+                "(818) 363-5157"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Citadel": {
+            "clinic_id": "1331",
+            "clinic_name": "Citadel",
+            "clinic_address": "Av. Rómulo Garza 410, Local B-11, La Fe, 66477, San Nicolás de los Garza, N. L. En planta baja, en el pasillo de helados Santa Clara, frente a la máquina de peluches.",
+            "clinic_geo": [
+                "25.7283531",
+                "-100.2154194"
+            ],
+            "clinic_phone": [
+                "(818) 240-9650",
+                "(818) 240-9651"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 10:00 a 19:00"
+            ]
+        },
+        "Fiesta Anáhuac": {
+            "clinic_id": "1330",
+            "clinic_name": "Fiesta Anáhuac",
+            "clinic_address": "Nte., Av. Manuel L. Barragán 325, Local 2000 y 2001, Anáhuac, 66450, San Nicolás de los Garza, N.L. 2do piso, a lado de Sears, frente a Movistar.",
+            "clinic_geo": [
+                "25.7444436",
+                "-100.312123"
+            ],
+            "clinic_phone": [
+                "(81) 8332-2975",
+                "(81) 8332-2992"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S-D 10:00 a 19:00"
+            ]
+        }
+    },
+    "Puebla": {
+        "Plaza Solesta": {
+            "clinic_id": "1326",
+            "clinic_name": "Plaza Solesta",
+            "clinic_address": "Atlixcáyotl 4931, L-29 y L-35, Reserva Territorial Atlixcáyotl, Centros Comerciales Desarrollo Atlixcáyotl, CP. 72193, Puebla, Puebla. 1er piso, atrás del restaurante Mochomos.",
+            "clinic_geo": [
+                "19.0343364",
+                "-98.2293072"
+            ],
+            "clinic_phone": [
+                "(22) 2283-9713",
+                "(22) 228-39810"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 9:00 a 20:00",
+                "D 9:00 a 19:00"
+            ]
+        }
+    },
+    "Queretaro": {
+        "Puerta la Victoria": {
+            "clinic_id": "1325",
+            "clinic_name": "Puerta la Victoria",
+            "clinic_address": "Av. Constituyentes Ote. 40, Mercurio, 76040 Santiago de Querétaro, Qro. En sótano 2, entre coppel y smart fit. Local 38b.",
+            "clinic_geo": [
+                "20.5851039",
+                "-100.3809042"
+            ],
+            "clinic_phone": [
+                "(442) 229-1010",
+                "(442) 229 -1035"
+            ],
+            "clinic_worktime": [
+                "L - 8:00 a 21:00",
+                "M - 11:00 a 21:00",
+                "M - 10:00 a 21:00",
+                "J - 8:00 a 21:00",
+                "V - 11:00 a 21:00",
+                "S - 11:00 a 21:00",
+                "D - 11:00 a 20:00"
+            ]
+        },
+        "Urban Center Juriquilla": {
+            "clinic_id": "1324",
+            "clinic_name": "Urban Center Juriquilla",
+            "clinic_address": "Blvd. Jurica La Campana, 899 L-22-23, Residencial Caletto, 76230   Qro. Juriquilla. 2do piso frente a Toks, arriba de Fresko.",
+            "clinic_geo": [
+                "20.7059261",
+                "-100.4427073"
+            ],
+            "clinic_phone": [
+                "(44) 2688-1100",
+                "(44) 2688-1101"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S 9:00 a 18:00",
+                "D 10:00 a 17:00"
+            ]
+        }
+    },
+    "Quintana Roo": {
+        "Playa del Carmen": {
+            "clinic_id": "1352",
+            "clinic_name": "Playa del Carmen",
+            "clinic_address": "Calle Quinta Avenida 156, Gonzalo Guerrero, 77710 Playa del Carmen, Q.R. Frente a la tienda Ámbar Mexicano.",
+            "clinic_geo": [
+                "20.6248002",
+                "-87.0737076"
+            ],
+            "clinic_phone": [
+                "(98) 4803-0461",
+                "(98) 4803-2962"
+            ],
+            "clinic_worktime": [
+                "L-S 11:00 a 20:00"
+            ]
+        },
+        "Urban Center Cancún": {
+            "clinic_id": "1350",
+            "clinic_name": "Urban Center Cancún",
+            "clinic_address": "Av. Nichupté S/N entre Acanceh y Tulum, Supermanzana 15-A Manzana 4, Lote 1, 77500 Cancún, Q.R. Entrando, a la derecha, a un costado de Petco.",
+            "clinic_geo": [
+                "21.1417361",
+                "-86.8259686"
+            ],
+            "clinic_phone": [
+                "(99) 8882 1395",
+                "(99) 8882 1393"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S 10:00 a 20:00",
+                "D 9:00 a 18:00"
+            ]
+        }
+    },
+    "San Luis Potosi": {
+        "Plaza San Luis": {
+            "clinic_id": "1329",
+            "clinic_name": "Plaza San Luis",
+            "clinic_address": "Blvd. Antonio Rocha Cordero 700 local B-37 Fracc. Lomas del Tecnológico, 78215, San Luis Potosí. En planta baja, entrando por Liverpool, frente a Starbucks.",
+            "clinic_geo": [
+                "22.1284968",
+                "-101.0310522"
+            ],
+            "clinic_phone": [
+                "(44) 4817 4435",
+                "(44) 4817 4438"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 21:00",
+                "S 10:00 a 20:00",
+                "D 11:00 a 20:00"
+            ]
+        }
+    },
+    "Sonora": {
+        "City Center Pitic": {
+            "clinic_id": "1342",
+            "clinic_name": "City Center Pitic",
+            "clinic_address": "Boulevard José María Morelos y Pavón 355, Bachoco, 83148, Sonora.",
+            "clinic_geo": [
+                "29.1254877",
+                "-110.9513153"
+            ],
+            "clinic_phone": [
+                "(662) 211-1347",
+                "(662) 211-1402"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 a 20:00",
+                "S-D 9:00 a 18:00"
+            ]
+        },
+        "Galerías Mall Sonora": {
+            "clinic_id": "1341",
+            "clinic_name": "Galerías Mall Sonora",
+            "clinic_address": "Blvd. Cultura 55 Oriente, Local C-19 y C-20, Proyecto Rio Sonora, 83280, Hermosillo, Sonora. Local C-19 y C-20 Enfrente de Relaciones Exteriores.",
+            "clinic_geo": [
+                "29.0656443",
+                "-110.9521538"
+            ],
+            "clinic_phone": [
+                "(662) 212-1961",
+                "(662) 212-0869"
+            ],
+            "clinic_worktime": [
+                "L-D 9:00 a 20:00"
+            ]
+        }
+    },
+    "Yucatán": {
+        "Galerías Mérida": {
+            "clinic_id": "1354",
+            "clinic_name": "Galerías Mérida",
+            "clinic_address": "Calle 60 299-X3 y 3A Local: 262, Revolución, 97115, Mérida Yucatán",
+            "clinic_geo": [
+                "21.0307114",
+                "-89.6181018"
+            ],
+            "clinic_phone": [
+                "(99) 9941-5665",
+                "(99) 9941-5662"
+            ],
+            "clinic_worktime": [
+                "L-D 11:00 a 20:00"
+            ]
+        },
+        "Altabrisa": {
+            "clinic_id": "1353",
+            "clinic_name": "Altabrisa",
+            "clinic_address": "Calle 7 451, Fraccionamiento Altabrisa, 97133 Mérida, Yuc. Local 122, planta alta. Cerca de los cines, a un costado de Sally Beauty, frente a óptica Molina.",
+            "clinic_geo": [
+                "21.0180654",
+                "-89.5848245"
+            ],
+            "clinic_phone": [
+                "(99) 9211-0274"
+            ],
+            "clinic_worktime": [
+                "L-V 9:00 - 21:00",
+                "S-D 11:00 a 20:00"
+            ]
+        }
+    }
+}
