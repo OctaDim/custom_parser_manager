@@ -15,7 +15,7 @@ url = "http://www.health-diet.ru/table_calorie/?utm_source=leftMenu&utm_medium=t
 base_url = "http://www.health-diet.ru"
 
 local_html_full_filename = compose_full_filename(
-    directories_paths=("health_diet","html_pages"),
+    directories_paths=("health_diet", "parsing_results", "html_pages"),
     file_name="local_health_diet.html")
 
 with ParserManager(url, headers=create_fake_headers(),
@@ -33,7 +33,7 @@ with ParserManager(url, headers=create_fake_headers(),
         all_categories_dict[category_name] = category_url
 
     json_full_filename = compose_full_filename(
-        directories_paths=("health_diet", "json_files"),
+        directories_paths=("health_diet", "parsing_results", "json_files"),
         file_name="all_categories_health_diet.json")
 
     create_json_file(json_full_filename, all_categories_dict,
@@ -53,7 +53,10 @@ for category_name, category_url in all_categories.items():
                          f"{slashed_name}.html")
 
     local_html_full_filename = compose_full_filename(
-        directories_paths=("health_diet", "html_pages", "categories_pages"),
+        directories_paths=("health_diet",
+                           "parsing_results",
+                           "html_pages",
+                           "categories_pages"),
         file_name=slashed_file_name)
 
     with ParserManager(url=category_url,
@@ -103,7 +106,7 @@ for category_name, category_url in all_categories.items():
 
 # ######################## CREATING RESULT CSV FILE ####################
 csv_full_filename = compose_full_filename(
-    ("health_diet", "csv_files"),
+    ("health_diet", "parsing_results", "csv_files"),
     "products_info_with_categories.csv")
 
 csv_headers = ["category_name",
@@ -121,7 +124,7 @@ create_csv_file(csv_full_filename,
 
 # ######################## CREATING RESULT JSON FILE ###################
 json_full_filename = compose_full_filename(
-    ("health_diet","json_files"),
+    ("health_diet", "parsing_results", "json_files"),
     "products_info_by_categories.json")
 
 create_json_file(json_full_filename,
