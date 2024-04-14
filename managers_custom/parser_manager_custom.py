@@ -11,9 +11,14 @@ class ParserManager:  # DM
     def __init__(self, url: str,
                  local_full_filename: str,
                  headers: dict = None,
+                 params: dict = None,
+                 cookies: dict = None,
+                 data: dict = None,
                  file_rewrite: bool = False,
                  not_200_create_local_file=True,
-                 random_time_delay: int = -1):
+                 random_time_delay: int = -1,
+                 get_or_post: str = "get",
+                 ):
 
         self.url = url
         self.headers = headers
@@ -24,11 +29,32 @@ class ParserManager:  # DM
         self.status_code = None
         self.parsed_source = None
         self.random_time_delay = random_time_delay
+        self.get_or_post = get_or_post
+        self.params = params
+        self.cookies = cookies
+        self.data = data
 
 
     def get_response_and_status_code(self):
         try:
-            self.response = requests.get(url=self.url, headers=self.headers)
+            if self.get_or_post == "get":
+                self.response = requests.get(url=self.url,
+                                             headers=self.headers,
+                                             cookies=self.cookies,
+                                             params=self.params,
+                                             data=self.data
+                                             )
+            elif self.get_or_post == "post":
+                self.response = requests.post(url=self.url,
+                                              headers=self.headers,
+                                              cookies=self.cookies,
+                                              params=self.params,
+                                              data=self.data
+                                              )
+            else:
+                print(f"Error. Parameter 'get_or_post' value "
+                      f"('{self.get_or_post}') is not equal 'get' or 'post'")
+
             self.status_code = self.response.status_code
             print(f"\n\tResponse status code: "
                   f"{self.status_code} - {self.response.reason}")
