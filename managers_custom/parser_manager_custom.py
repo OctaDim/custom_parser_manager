@@ -122,6 +122,7 @@ class ParserManager:  # DM
         if not self.file_rewrite and os.path.exists(self.local_full_filename):
             print(f"\n\tLocal HTML(XML) file '{self.local_full_filename}' used")
             self.get_parsed_source_from_local_file()
+            print()
             return self.parsed_source
 
         self.get_response_and_status_code()
@@ -131,8 +132,10 @@ class ParserManager:  # DM
             self.create_local_html_xml_file()
             self.get_parsed_source_from_response()
             # self.get_parsed_source_from_local_file()
+            print()
             return self.parsed_source
 
+        print()
         return self.parsed_source
 
 
