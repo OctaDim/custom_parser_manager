@@ -5,20 +5,19 @@ from bs4 import BeautifulSoup
 from utils_custom.utils import (compose_full_filename,
                                 create_fake_headers,
                                 create_json_file,
-                                create_dir_if_not_exists,
-                                read_json_file,
-                                make_slashed_name,
                                 create_csv_file,
                                 )
 
-from dentalia.fetch_requests import all_clinics_request_params
-from dentalia.fetch_requests import admin_ajax_request_params
+from dentalia.fetch_requests_params import (admin_ajax_request_params,
+                                            all_clinics_request_params)
 
-# ##### GETTING MAIN PAGE HTML FILE AND AREAS ##########################
+
+
+# ##### GETTING MAIN PAGE HTML FILE AND REGIONS ########################
 url = "https://dentalia.com/"
 
 local_html_full_filename = compose_full_filename(
-    directories_paths=("dentalia", "html_pages"),
+    directories_paths=("dentalia", "parsing_results", "html_pages"),
     file_name="local_dentalia.html")
 
 with ParserManager(url, headers=create_fake_headers(),
@@ -27,9 +26,11 @@ with ParserManager(url, headers=create_fake_headers(),
 
     all_regions = parsed_main_page.find("div", class_="jet-listing-grid__items grid-col-desk-1 grid-col-tablet-1 grid-col-mobile-1 jet-listing-grid--231")
 
-    all_clinics_by_region_dict = {}
-    all_clinics_dicts_list = []
+    all_clinics_by_region_dict_for_json = {}
+    all_clinics_dicts_list_for_json_csv = []
 
+
+    # ##### GETTING REGIONS INFO #######################################
     for region in all_regions:
         region_name = region.find(
             "div", class_="jet-listing-dynamic-field__content").string.strip()
@@ -43,6 +44,7 @@ with ParserManager(url, headers=create_fake_headers(),
         # requests.get(url=url)
 
 
+        # ##### EXTRA REQUEST TO GET AJAX WITH GEO-LOCATIONS ###########
         url = "https://dentalia.com/wp-admin/admin-ajax.php"
         cookies = admin_ajax_request_params.cookies
         headers = admin_ajax_request_params.headers
@@ -61,6 +63,7 @@ with ParserManager(url, headers=create_fake_headers(),
             clinics_geo_dict[str(clinic_id)] = [geo_lat, geo_lng]
 
 
+        # ##### EXTRA REQUEST TO GET CLINIC INFO #######################
         url = "https://dentalia.com/clinica/"
         params = all_clinics_request_params.params
         cookies = all_clinics_request_params.cookies
@@ -77,8 +80,10 @@ with ParserManager(url, headers=create_fake_headers(),
         all_clinics = clinics_parsed_source.find("div", class_="jet-listing-grid__items")
         all_clinics = all_clinics.find_all("div", class_="jet-listing-grid__item")
 
-        clinics_dict = {}
+        clinics_by_region_dict = {}
 
+
+        # ##### GETTING CLINIC INFO ####################################
         for clinic in all_clinics:
             clinic_id = clinic.get("data-post-id")
 
@@ -101,38 +106,71 @@ with ParserManager(url, headers=create_fake_headers(),
             clinic_worktime_list = clinic_worktime.split("\r\n")
             clinic_worktime_list = [wt.strip() for wt in clinic_worktime_list]
 
-            all_clinics_dicts_list.append({"clinic_id": clinic_id,
-                                           "clinic_name": clinic_name,
-                                           "clinic_address": clinic_address,
-                                           "clinic_geo": clinic_geo,
-                                           "clinic_phone": clinic_phone_list,
-                                           "clinic_worktime": clinic_worktime_list
-                                           })
 
-            clinics_dict[clinic_name] = {"clinic_id": clinic_id,
-                                         "clinic_name": clinic_name,
-                                         "clinic_address": clinic_address,
-                                         "clinic_geo": clinic_geo,
-                                         "clinic_phone": clinic_phone_list,
-                                         "clinic_worktime": clinic_worktime_list}
+            # ##### CREATING DICTIONARIES LIST FOR JSON & CSV ##########
+            all_clinics_dicts_list_for_json_csv.append({
+                "region_id": region_id,
+                "region_name": region_name,
+                "clinic_id": clinic_id,
+                "clinic_name": clinic_name,
+                "clinic_address": clinic_address,
+                "clinic_geo": clinic_geo,
+                "clinic_phone": clinic_phone_list,
+                "clinic_worktime": clinic_worktime_list
+            })
 
-            print(f"\tParsed:  Region: {region_name} | Clinic: {clinic_name}")
 
-        all_clinics_by_region_dict[region_name] = clinics_dict
+            # ##### CREATING CURRENT CLINIC DICTIONARY #################
+            clinics_by_region_dict[clinic_name] = {
+                "clinic_id": clinic_id,
+                "clinic_name": clinic_name,
+                "clinic_address": clinic_address,
+                "clinic_geo": clinic_geo,
+                "clinic_phone": clinic_phone_list,
+                "clinic_worktime": clinic_worktime_list
+            }
 
+            print(f"\tParsed:  Region: {region_name}  |  Clinic: {clinic_name}")
+
+
+        # ##### CREATING ALL CLINICS BY REGION KEY DICTIONARY ##########
+        all_clinics_by_region_dict_for_json[region_name] = clinics_by_region_dict
+
+
+    # ##### CREATING RESULT JSON FILES #################################
     json_full_filename = compose_full_filename(
-        directories_paths=("dentalia", "json_files"),
-        file_name="all_clinics_dicts_list.json")
+        directories_paths=("dentalia", "parsing_results", "json_files"),
+        file_name="all_regions_and_clinics.json")
 
     create_json_file(json_full_filename=json_full_filename,
-                     data_dictionary=all_clinics_dicts_list,
+                     data_dictionary=all_clinics_dicts_list_for_json_csv,
                      file_rewrite=True)
 
 
     json_full_filename = compose_full_filename(
-        directories_paths=("dentalia", "json_files"),
+        directories_paths=("dentalia", "parsing_results", "json_files"),
         file_name="all_clinics_by_region.json")
 
     create_json_file(json_full_filename=json_full_filename,
-                     data_dictionary=all_clinics_by_region_dict,
+                     data_dictionary=all_clinics_by_region_dict_for_json,
                      file_rewrite=True)
+
+
+    # ##### CREATING RESULT CSV FILES ##################################
+    csv_full_filename = compose_full_filename(
+        directories_paths=("dentalia", "parsing_results", "csv_files"),
+        file_name="all_regions_and_clinics.csv")
+
+    csv_headers = ["region_id",
+                   "region_name",
+                   "clinic_id",
+                   "clinic_name",
+                   "clinic_address",
+                   "clinic_geo",
+                   "clinic_phone",
+                   "clinic_worktime"]
+
+    create_csv_file(csv_full_filename=csv_full_filename,
+                    csv_headers=csv_headers,
+                    data_dicts_list=all_clinics_dicts_list_for_json_csv,
+                    file_rewrite=True)
